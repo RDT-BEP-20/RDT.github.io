@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDT Token - The Future of Decentralization</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo-text">RDT Token</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="https://pancakeswap.finance/" target="_blank" class="button">Buy Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <img src="rdt-logo.png" alt="RDT Token Logo" class="logo-image">
+                <h2>Welcome to RDT Token</h2>
+                <p class="tagline">Powering the next generation of decentralized applications on the BNB Chain.</p>
+                <div class="contract-box">
+                    <p>Official Contract Address:</p>
+                    <span id="contractAddress">0x6Aa06f0dcc49a67Cf77F44e96f80f2f517A48BEF</span>
+                    <button onclick="copyContract()">Copy</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>About RDT</h2>
+                <p>
+                    RDT Token is a community-driven, decentralized cryptocurrency on the BNB Smart Chain. Our mission is to [**DESCRIBE YOUR PROJECT'S MAIN GOAL HERE**]. We believe in transparency, security, and building a strong community to support the growth and utility of the RDT ecosystem.
+                </p>
+            </div>
+        </section>
+
+        <section id="tokenomics" class="content-section bg-dark">
+            <div class="container">
+                <h2>Tokenomics</h2>
+                <div class="token-details">
+                    <div class="detail-item">
+                        <h3>Total Supply</h3>
+                        <p>[**ENTER TOTAL SUPPLY HERE, e.g., 1,000,000,000 RDT**]</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Taxes</h3>
+                        <p>[**ENTER YOUR BUY/SELL TAX, e.g., 5% Buy / 5% Sell**]</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Liquidity</h3>
+                        <p>[**MENTION IF LIQUIDITY IS LOCKED, e.g., Locked for 1 Year**]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="content-section">
+            <div class="container">
+                <h2>Our Roadmap</h2>
+                <div class="roadmap-grid">
+                    <div class="roadmap-item">
+                        <h4>Phase 1</h4>
+                        <ul>
+                            <li>✅ Token Launch</li>
+                            <li>✅ Website V1 Launch</li>
+                            <li>Building Community</li>
+                            <li>PancakeSwap Listing</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Phase 2</h4>
+                        <ul>
+                            <li>CoinGecko Listing</li>
+                            <li>CoinMarketCap Listing</li>
+                            <li>First Marketing Push</li>
+                            <li>[**ADD YOUR OWN GOAL**]</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Phase 3</h4>
+                        <ul>
+                            <li>Partnership Announcements</li>
+                            <li>Utility Development</li>
+                            <li>CEX Listing Applications</li>
+                            <li>[**ADD YOUR OWN GOAL**]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3>Join Our Community</h3>
+            <div class="social-links">
+                <a href="[**YOUR_TELEGRAM_LINK**]" target="_blank">Telegram</a>
+                <a href="[**YOUR_TWITTER_LINK**]" target="_blank">Twitter</a>
+                <a href="https://bscscan.com/token/0x6Aa06f0dcc49a67Cf77F44e96f80f2f517A48BEF" target="_blank">BscScan</a>
+            </div>
+            <p>&copy; 2025 RDT Token. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function copyContract() {
+            const contractAddress = document.getElementById('contractAddress').innerText;
+            navigator.clipboard.writeText(contractAddress).then(() => {
+                alert('Contract address copied to clipboard!');
+            }, (err) => {
+                alert('Failed to copy: ', err);
+            });
+        }
+    </script>
+
+</body>
+</html>
